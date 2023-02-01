@@ -5,15 +5,9 @@ export default {
 </script>
 
 <template>
-  <div>
-    <h1>Hello World</h1>
+  <div class="container">
+    <h1>Lista Progetti</h1>
   </div>
 </template>
 
-<style lang="scss" scoped>
-h1 {
-  @include media-breakpoint-up(md) {
-    color: green;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

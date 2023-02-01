@@ -1,19 +1,13 @@
 <script>
+import ProjectList from "./ProjectList.vue";
 export default {
   name: "AppMain",
+  components: { ProjectList },
 };
 </script>
 
 <template>
-  <div>
-    <h1>Hello World</h1>
-  </div>
+  <main><ProjectList /></main>
 </template>
 
-<style lang="scss" scoped>
-h1 {
-  @include media-breakpoint-up(md) {
-    color: green;
-  }
-}
-</style>
+<style lang="scss" scoped></style>
