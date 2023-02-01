@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "HelloWord",
+  name: "AppFooter",
 };
 </script>
 
