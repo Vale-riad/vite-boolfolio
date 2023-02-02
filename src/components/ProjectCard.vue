@@ -15,6 +15,11 @@ export default {
       <p class="card-text">
         {{ data.content }}
       </p>
+      <router-link
+        :to="{ name: 'single-project', params: { slug: data.slug } }"
+        class="btn btn-primary"
+        >Leggi di più</router-link
+      >
     </div>
   </div>
 </template>
