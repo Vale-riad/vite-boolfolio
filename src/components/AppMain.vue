@@ -1,13 +1,11 @@
 <script>
-import ProjectList from "./ProjectList.vue";
 export default {
   name: "AppMain",
-  components: { ProjectList },
 };
 </script>
 
 <template>
-  <main><ProjectList /></main>
+  <router-view></router-view>
 </template>
 
 <style lang="scss" scoped></style>
